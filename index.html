@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Running the 100-meter dash</title>
+</head>
+<link href="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<!---This is the tooltip script !--> 
+<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css"/>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<link rel="stylesheet" href="styles.css" type="text/css">
+<!--The javascript itself-->
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    console.log('DOM Ready');
+    $('.flexslider').flexslider();
+
+    $('#heel').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The back heel maintains separation from the block in the "set" position, allowing it to strike it and push off at the start.',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#thumbs').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The runner\'s weight is centered so that the arms are not propping him up. His fingers are positioned with the thumbs pointing at one another. ',
+    },
+    position: {
+        my: 'bottom right',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#armsplit').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The runner violently splits her arms to add power to her drive out of the blocks. As her back leg comes forward, the arm on the same side is thrust backward.',
+    },
+    position: {
+        my: 'top center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+     $('#footdrag').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'At the gun, the back leg strikes the block with the heel and recoils forward. The toe stays low to the ground to ensures the first step can be taken quickly and firmly.',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#legextension').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The runner uses the leg in the front block to almost literally jump forward out of the blocks. It extends from a 90-degree angle in the "set" position to fully extended as we see here.',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+     $('#armpump').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The arms continue to pump in a continuation of the pattern begun by the initial arm split at the start. They keep the upper body stable by counteracting the immense force of the opposite leg. This arm swing naturally happens on a much smaller scale when walking or jogging. ',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+      $('#slowsteps').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Unexpectedly, the first steps out of the blocks aren\'t meant to be taken quickly. Long, powerful strides ensure the runner makes full use of his most powerful muscles to accelerate and push backward into the track.',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#corestrength').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Stability through the hips and upper body ensures they don\'t absorb the energy the lower body is transferring in to the ground.',
+    },
+    position: {
+        my: 'top center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#kneelift').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'The abdominal muscles are also used to bring the thighs parallel with the ground every step, again maximizing the force that can be applied to the ground.',
+    },
+    position: {
+        my: 'top left',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#face').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'In contrast to the lower body, the muscles of the face and neck remain relaxed at top speed, allowing the arms and shoulders to swing freely.',
+    },
+    position: {
+        my: 'top right',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#strength').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Proper training includes a focus on "speed endurance," or the ability of the muscles to maintain forward momentum and significant power output at and beyond the anerobic threshold. Here, Carmelita Jeter\'s form is the most symmetrical; it\'s no wonder she\'s in the lead.',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+    $('#piano').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'Also known as the "piano" stage for the extra weight that seems to appear, this is when form begins to break down as the muscles reach the natural limits of their ability to maintain such explosive power output. Side-to-side motion might begin in the upper body at this point.',
+    },
+    position: {
+        my: 'bottom center',
+        at: 'top right',
+    },
+        style: {
+        classes: 'qtip-bootstrap qtip-shadow'
+        }
+        
+});
+  });
+</script>
+
+<body>
+    
+    <!-- Place somewhere in the <body> of your page -->
+<h2>Hover over the <img src="images/button.png"/> icons to learn more about techniques associated with various parts of the body.</h2>
+<div class="flexslider">
+  <ul class="slides">
+    <li><div class="block-positioning"></div><img src="images/titleslide.jpg"/></li>
+    <li>
+         <div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">1. THE BLOCKS</div>
+                    <div class="col-xs-8 slide-text">The explosive force of a sprinter's start is most efficiently harnessed when transferred into the ground at an angle.</div>
+                </div>
+            </div>
+        <div class="block-positioning">
+            <p id="heel"><img src="images/button.png"/></p>
+            <p id="thumbs"><img src="images/button.png"/></p>
+        </div>
+        <img src="images/blocks.jpg"/>
+    </li>
+    <li>
+         <div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">2. THE START</div>
+                    <div class="col-xs-8 slide-text">At the sound of the gun, the runner extends the front leg as quickly and powerfully as possible, creating an angle of close to 45 degrees between her torso and the ground.</div>
+                </div>
+            </div>
+        <div class="block-positioning">
+            <p id="armsplit"><img src="images/button.png"/></p>
+            <p id="footdrag"><img src="images/button.png"/></p>
+            <p id="legextension"><img src="images/button.png"/></p> 
+        </div>
+        <img src="images/start.jpg"/></li>
+    <li>
+         <div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">3. DRIVE PHASE</div>
+                    <div class="col-xs-8 slide-text">During the drive phase, the runner stays low to continue pushing backward into the the ground. The arm swings begin to constrict and the eyes -- not the head -- begin to look upward.</div>
+                </div>
+            </div>
+        <div class="block-positioning">
+            <p id="slowsteps"><img src="images/button.png"/></p>
+            <p id="armpump"><img src="images/button.png"/></p>
+        </div>
+        <img src="images/drivephase.jpg"/>
+    </li>
+    <li>
+         <div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">4. TOP SPEED</div>
+                    <div class="col-xs-8 slide-text">After about 60 meters, the runner is fully upright. At this point, his objective is to harness his total body strength to transfer as much downward force into the ground as he can.</div>
+                </div>
+            </div>
+        <div class="block-positioning">
+            <p id="corestrength"><img src="images/button.png"/></p>
+            <p id="kneelift"><img src="images/button.png"/></p>
+            <p id="face"><img src="images/button.png"/></p>
+        </div>
+        <img src="images/topspeed.jpg"/>
+    </li>
+    <li><div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">5. SUSTAINING</div>
+                    <div class="col-xs-8 slide-text">At the end of races, it's often said that someone is "pulling away." But all things being equal after 80 meters, the race is won by whoever slows down the least: Top speed can only be maintained for 20 meters.</div>
+                </div>
+            </div>
+        <div class="block-positioning">
+            <p id="piano"><img src="images/button.png"/></p>
+            <p id="strength"><img src="images/button.png"/></p>
+        </div>
+        <img src="images/sustaining.jpg"/></li>
+    <li>
+        <div class="row">
+                <div class="text-container">
+                    <div class="col-xs-4 slide-title">6. THE FINISH</div>
+                    <div class="col-xs-8 slide-text">Races of this distance are regularly decided by single hundredths of a second, meaning an aggressive lean can be the difference. Whoever owns the first body part to cross the finish line wins the race.</div>
+                </div>
+            </div>
+        <div class="block-positioning"><a href="newsquiz/quiz.html"><p id="takequiz"><em>Take the quiz >></em></p></a></div><img src="images/finish.jpg"/>
+    </li>
+  </ul>
+</div>
+<footer>
+    <p>By Henry Gargan</p>
+    <p>For JOMC 586 with Steven King, Spring 2015.</p>
+</footer>
+
+</body>
+</html>
+
