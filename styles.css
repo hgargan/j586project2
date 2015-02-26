@@ -2,43 +2,30 @@ body {
     max-height: 500px;
     padding: 3%;
     font-family: 'Helvetica Nueue', sans-serif;
-<<<<<<< HEAD
     background-color: #eee;
-=======
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
+
 }
 
 .block-positioning {
     font-size: 1em;
     position: absolute;
     background: transparent;
-<<<<<<< HEAD
-    width: 100%; 
-=======
     width: 100%;
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
     height: 100%;
     
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
 h1 {
     font-family: 'Helvetica Nueue', sans-serif;
     font-weight: 300;
     text-align: center;
-<<<<<<< HEAD
     color: #999;
-=======
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
+
 }
 
 h2 {
     font-family: Baskerville, serif;
     font-weight: 300;
-<<<<<<< HEAD
     font-size: 1.5em;
     text-align: center;
     color: #222;
@@ -53,14 +40,12 @@ footer {
 
 .qtip-bootstrap {
     font-size: 1vw;
-=======
     font-size: 1.3em;
     text-align: center;
 }
 
 .qtip-bootstrap {
     font-size: 65%;
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
     line-height: 1.3em;
     max-width: 40%;
     max-height: 20%;
@@ -71,7 +56,6 @@ footer {
     
 }
 
-<<<<<<< HEAD
 .text-container {
     position: absolute;
     top: 86%;
@@ -114,8 +98,6 @@ footer {
     line-height: 1.2em;
 }
 
-=======
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
 /* Hover elements */
 /* slide 1 */
 
@@ -241,6 +223,3 @@ a:hover {
 }
     
 
-=======
-    
->>>>>>> 2f4f1dfdc4479131852d2386118323887c93a626
